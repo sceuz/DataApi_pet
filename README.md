@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uploading pet data:
 
-## Available Scripts
+When the app is launched, pet data is uploaded using the Pet Store API.
+The uploaded data is displayed as a list of pets.
+Displaying a list of pets:
 
-In the project directory, you can run:
+The "Show Pets List" button allows you to display or hide the list of pets.
+When you click on the button, pet data is displayed or hidden.
+Search for a pet by ID:
 
-### `npm start`
+The user can enter the pet's ID in the appropriate input field.
+When you click on the "Get Pet" button, information about the pet with the specified ID will be displayed.
+Adding a new pet:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The user can enter the details of the new pet (ID, name and status) in the appropriate input fields.
+When you click on the "Add Pet" button, a new pet will be added to the list.
+Updating pet information:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The user can enter the ID of the pet to update, as well as the new name and status of the pet.
+When you click on the "Update Pet" button, the information about the pet with the specified ID will be updated.
+Removing a pet:
 
-### `npm test`
+The user can enter the ID of the pet to be deleted.
+When you click on the "Delete Pet" button, the pet with the specified ID will be removed from the list.
+Displaying response messages:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After completing each action (receiving, adding, updating, deleting), a success or error message is displayed.
+To use this app:
 
-### `npm run build`
+Copy the code to the App.tsx file of your project.
+Make sure that you have the react and react-dom dependencies installed.
+Create an App.css style file and add the necessary styles for the elements.
+Launch your application using the npm start or yarn start command.
+Interact with the interface using buttons and input fields to manage pet data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+RUS:
+Загрузка данных о питомцах:
+При запуске приложения данные о питомцах загружаются с использованием API Pet Store.
+Загруженные данные отображаются в виде списка питомцев.
+Отображение списка питомцев:
+Кнопка "Show Pets List" позволяет отобразить или скрыть список питомцев.
+При нажатии на кнопку данные о питомцах отображаются или скрываются.
+Поиск питомца по ID:
+Пользователь может ввести ID питомца в соответствующее поле ввода.
+При нажатии на кнопку "Get Pet" будет отображена информация о питомце с указанным ID.
+Добавление нового питомца:
+Пользователь может ввести данные нового питомца (ID, имя и статус) в соответствующие поля ввода.
+При нажатии на кнопку "Add Pet" новый питомец будет добавлен в список.
+Обновление информации о питомце:
+Пользователь может ввести ID питомца, информацию о котором нужно обновить, а также новое имя и статус питомца.
+При нажатии на кнопку "Update Pet" информация о питомце с указанным ID будет обновлена.
+Удаление питомца:
+Пользователь может ввести ID питомца, который нужно удалить.
+При нажатии на кнопку "Delete Pet" питомец с указанным ID будет удален из списка.
+Отображение сообщений об ответе:
+После выполнения каждого действия (получение, добавление, обновление, удаление) отображается сообщение об успешном выполнении или об ошибке.
+Чтобы использовать это приложение:
+Скопируйте код в файл App.tsx вашего проекта.
+Убедитесь, что у вас установлены зависимости react и react-dom.
+Создайте файл стилей App.css и добавьте необходимые стили для элементов.
+Запустите ваше приложение с помощью команды npm start или yarn start.
+Взаимодействуйте с интерфейсом, используя кнопки и поля ввода, чтобы управлять данными о питомцах.
