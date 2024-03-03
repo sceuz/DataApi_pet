@@ -37,6 +37,7 @@ RUS:
 
 ENG: 
 WebStrom 2023.3.4 was used for the build.
+
 Uploading pet data:
 
 When the app is launched, pet data is uploaded using the Pet Store API.
