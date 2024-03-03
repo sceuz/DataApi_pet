@@ -1,40 +1,5 @@
-
-Uploading pet data:
-
-When the app is launched, pet data is uploaded using the Pet Store API.
-The uploaded data is displayed as a list of pets.
-Displaying a list of pets:
-
-The "Show Pets List" button allows you to display or hide the list of pets.
-When you click on the button, pet data is displayed or hidden.
-Search for a pet by ID:
-
-The user can enter the pet's ID in the appropriate input field.
-When you click on the "Get Pet" button, information about the pet with the specified ID will be displayed.
-Adding a new pet:
-
-The user can enter the details of the new pet (ID, name and status) in the appropriate input fields.
-When you click on the "Add Pet" button, a new pet will be added to the list.
-Updating pet information:
-
-The user can enter the ID of the pet to update, as well as the new name and status of the pet.
-When you click on the "Update Pet" button, the information about the pet with the specified ID will be updated.
-Removing a pet:
-
-The user can enter the ID of the pet to be deleted.
-When you click on the "Delete Pet" button, the pet with the specified ID will be removed from the list.
-Displaying response messages:
-
-After completing each action (receiving, adding, updating, deleting), a success or error message is displayed.
-To use this app:
-
-Copy the code to the App.tsx file of your project.
-Make sure that you have the react and react-dom dependencies installed.
-Create an App.css style file and add the necessary styles for the elements.
-Launch your application using the npm start or yarn start command.
-Interact with the interface using buttons and input fields to manage pet data.
-
 RUS:
+Для сборки использовался WebStrom 2023.3.4.
 Загрузка данных о питомцах:
 
 При запуске приложения данные о питомцах загружаются с использованием API Pet Store.
@@ -69,7 +34,42 @@ RUS:
 Запустите ваше приложение с помощью команды npm start или yarn start.
 Взаимодействуйте с интерфейсом, используя кнопки и поля ввода, чтобы управлять данными о питомцах.
 
+ENG: 
+WebStrom 2023.3.4 was used for the build.
+Uploading pet data:
 
+When the app is launched, pet data is uploaded using the Pet Store API.
+The uploaded data is displayed as a list of pets.
+Displaying a list of pets:
+
+The "Show Pets List" button allows you to display or hide the list of pets.
+When you click on the button, pet data is displayed or hidden.
+Search for a pet by ID:
+
+The user can enter the pet's ID in the appropriate input field.
+When you click on the "Get Pet" button, information about the pet with the specified ID will be displayed.
+Adding a new pet:
+
+The user can enter the details of the new pet (ID, name and status) in the appropriate input fields.
+When you click on the "Add Pet" button, a new pet will be added to the list.
+Updating pet information:
+
+The user can enter the ID of the pet to update, as well as the new name and status of the pet.
+When you click on the "Update Pet" button, the information about the pet with the specified ID will be updated.
+Removing a pet:
+
+The user can enter the ID of the pet to be deleted.
+When you click on the "Delete Pet" button, the pet with the specified ID will be removed from the list.
+Displaying response messages:
+
+After completing each action (receiving, adding, updating, deleting), a success or error message is displayed.
+To use this app:
+
+Copy the code to the App.tsx file of your project.
+Make sure that you have the react and react-dom dependencies installed.
+Create an App.css style file and add the necessary styles for the elements.
+Launch your application using the npm start or yarn start command.
+Interact with the interface using buttons and input fields to manage pet data.
 
 GARAFUTDINOV A.A.
 
